@@ -1,0 +1,191 @@
+body {
+  font-family: "Montserrat";
+}
+#title {
+  background-color: #ff4c68;
+  color: #ffff;
+}
+
+.heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Monsterrat-Light", sans-serif;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 55%;
+  /* transform: rotate(25deg); */
+  /* transform: translate(50%) rotate(25deg); */
+  animation-name: title-image;
+  animation-iteration-count: infinite;
+  animation-duration: 0.9s;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+  /* animation: ripple 1s infinite ease-in-out alternate-reverse; */
+}
+
+/* @keyframes ripple {
+  from{
+    opacity: 1;
+    transform: scale(1);
+  }
+  to{
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  
+} */
+
+@keyframes title-image {
+    0%{
+      transform: translate3d(0,-12px,0);
+    }
+    25%{
+      transform: translate3d(0,-9px,0);
+      /* border: 1px solid #ffff;
+      border-radius: 35px; */
+    }
+    50%{
+      transform: translate3d(0,-6px,0);
+    }
+    75%{
+      transform: translate3d(0,-3px,0);
+    }
+    100%{
+      transform: translate3d(0,0,0);
+    }
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 30%;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #ffff;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
